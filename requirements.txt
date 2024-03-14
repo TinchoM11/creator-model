@@ -22,9 +22,10 @@ cachetools==5.3.3
 catalogue==2.0.8
 certifi==2024.2.2
 cffi==1.16.0
-charset-normalizer==3.3.2
+charset-normalizer==2.1.1
 chroma-hnswlib==0.7.3
 chromadb==0.3.29
+chromadb-client==0.4.25.dev0
 click==8.1.7
 clickhouse-connect==0.7.3
 cloudevents==1.9.0
@@ -150,7 +151,7 @@ opentelemetry-semantic-conventions==0.44b0
 opentelemetry-util-http==0.44b0
 orjson==3.9.15
 overrides==7.7.0
-packaging==24.0
+packaging==23.2
 pandas==2.2.1
 parsimonious==0.9.0
 parso==0.8.3
@@ -162,7 +163,7 @@ posthog==3.5.0
 preshed==3.0.8
 prompt-toolkit==3.0.43
 proto-plus==1.23.0
-protobuf==5.26.0
+protobuf==4.25.3
 ptyprocess==0.7.0
 pulsar-client==3.4.0
 pure-eval==0.2.2
@@ -225,12 +226,12 @@ torch==2.2.1
 tqdm==4.66.2
 traitlets==5.14.2
 transformers==4.38.2
-typer==0.9.0
+typer==0.7.0
 typing-inspect==0.8.0
 typing_extensions==4.10.0
 tzdata==2024.1
 uritemplate==4.1.1
-urllib3==2.2.1
+urllib3==1.26.18
 uvicorn==0.28.0
 uvloop==0.19.0
 wasabi==1.1.1
