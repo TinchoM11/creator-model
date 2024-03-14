@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chromadb
+spec:
+  selector:
+    matchLabels:
+      app: chromadb
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: chromadb
+    spec:
+      containers:
+        - name: chromadb
+          image: chromadb/chroma
+          ports:
+            - containerPort: 8000
