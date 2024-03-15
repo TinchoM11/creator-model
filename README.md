@@ -33,3 +33,8 @@ Human input agent (limits request to adding a chain and nothing else) -> chain a
 5. On the start command put `python3 main.py`
 6. Add the environment variables (see .env.example)
 7. Click "Create Web Service" and wait for the deployment to finish
+
+
+https://github.com/ephcratSO/Creator-Model/assets/118641681/3492ab9c-5ce9-4e2f-bbb8-64b608e86c61
+
+
